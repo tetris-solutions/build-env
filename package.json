@@ -1,0 +1,27 @@
+{
+  "name": "@tetris/build-env",
+  "version": "0.0.0",
+  "description": "small time env parser utility",
+  "main": "index.js",
+  "engineStrict": true,
+  "bin": {
+    "build-env": "index.js"
+  },
+  "engines": {
+    "npm": ">=3.0.0",
+    "node": ">=4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tetris-solutions/build-env.git"
+  },
+  "author": "darthcas@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tetris-solutions/build-env/issues"
+  },
+  "homepage": "https://github.com/tetris-solutions/build-env#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0"
+  }
+}
